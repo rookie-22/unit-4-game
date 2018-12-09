@@ -1,0 +1,101 @@
+/* css for crystals collector */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/morocco-blue.png") repeat;
+    overflow: auto;
+}
+
+header {
+    background-color: darkorange;
+    padding: 10px;
+    color: white;
+    width: 250px;
+    font-size: 30px;
+    font-style: bold;
+    margin: 10px;
+}
+
+#instructions {
+    background-color: lightyellow;
+    color: green;
+    width: 450px;
+    height: 250px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+#score {
+    float: left;
+    width: 150px;
+    color: black;
+    background: aqua;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#number {
+    float: left;
+    height: 100px;
+    width: 250px;
+    font-size: 30px;
+    padding: 10px;
+    background: green;
+    margin: 10px;
+}
+
+.crystals {
+    clear: both;
+}
+
+img {
+    width: 75;
+    height: 75px;
+}
+
+#green {
+    float: left;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+#purple {
+    float: left;
+    padding-right: 5px;
+}
+
+#silver {
+    float: left;
+    padding-right: 5px;
+}
+
+#red {
+    float: left;
+    padding-right: 5px;
+}
+
+#total {
+    clear: both;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background: teal;
+    width: 250px;
+    height: 40px;
+}
+
+#guessed {
+    clear: both;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    background: teal;
+    width: 250px;
+    height: 80px;
+    font-size: 30px;
+}

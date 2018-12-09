@@ -1,0 +1,82 @@
+<!-- html for crystal collector -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- title for game -->
+    <title>CrystalsCollector</title>
+
+    <!-- jquery cdn link -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+
+    <!-- using a reset css stylesheet -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- css for game -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        CrystalsCollector!
+    </header>
+
+    <section id="instructions">
+        <p> You will be given a random number at the start of the game.</p>
+        <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            total score.</p>
+        <p> You win the game by matching your total score to the random number, you lose the game if your total score
+            goes above the random number. </p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p> Each time the game starts, the game will change the values of each crystal.</p>
+    </section>
+
+    <!-- section for random number and wins / losses area -->
+    <div id="numbers">
+        <section id="number">
+            <div id="numberGuessed"></div>
+        </section>
+        <section id="score">
+            <div>Wins: <span id="wins"></span></div>
+            <br>
+            <div>Losses: <span id="losses"></span></div>
+        </section>
+    </div>
+
+    <!-- crystal images for display -->
+    <div class="crystals">
+
+        <div id="green">
+            <img src="assets/images/green-crystal.jpg">
+        </div>
+
+        <div id="purple">
+            <img src="assets/images/purple-crystal.jpeg">
+        </div>
+
+        <div id="silver">
+            <img src="assets/images/silver-crystal.jpg">
+        </div>
+
+        <div id="red">
+            <img src="assets/images/red-crystal.jpg">
+        </div>
+
+    </div>
+
+    <!-- text container for total score copy -->
+    <section id="total">
+        Your total score is:
+    </section>
+
+    <!-- running total container  -->
+    <section id="guessed"></section>
+
+    <!-- link to javascript -->
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
